@@ -1,0 +1,65 @@
+body {
+  background: lightblue;
+}
+
+p {
+  color:rgb(39, 38, 35); font-size: x-large;
+  margin: 5% 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color  :midnightblue
+}
+
+/* To add box use border style  :border: solid 2px;  */
+h1 {
+  font-family:Arial, Helvetica, sans-serif;
+  border: solid 2px;
+  padding : 10px;
+  background : white;
+}
+
+/* Id selector starts with # */
+
+#paragraph1 {
+  color  :black;
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* use . for Class selector */
+.p2class{
+  color  : darkgreen;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.card {
+  margin :10px;
+  padding: 10px;
+  border : dotted 2px lightseagreen; 
+  width: 35%;
+  border-radius: 20px;
+}
+
+/*
+For example, if you want to apply a style to all the paragraphs that are inside a div element, you can use the following descendant selector:
+
+div p {
+    color  : darkgreen;
+  font-style: italic;
+  font-weight: 400;
+}
+
+h1, h2, h3 {
+  color: blue;
+  font-weight: bold;
+}
+In this example, the h1, h2, and h3 elements are grouped together 
+by listing them in a comma-separated list. The style rules that follow 
+inside the curly braces will apply to all three heading elements,
+ setting their color to blue and their font-weight to bold.
+
+ margin : 0 0 0 0 (top right botton left )
+*/
+
